@@ -46,3 +46,8 @@ table {
     border-spacing: 0;
 }
 
+.UpperNav{
+    display: flex;
+    flex-direction: row;
+}
+
