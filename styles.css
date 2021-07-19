@@ -49,5 +49,25 @@ table {
 .UpperNav{
     display: flex;
     flex-direction: row;
+    height: 40px;
+    align-items: center;
+}
+
+.UpperNav li{
+    padding: 30px 10px;
+    font-size: 12px;
+}
+
+.UpperNav li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.UpperNav li:nth-child(2){
+    margin-right: auto;
+}
+
+.UpperNav li:first-child{
+    margin-left: 30px;
 }
 
