@@ -80,13 +80,39 @@ table {
     background: -webkit-linear-gradient(top,#4387fd,#4683ea);
     color: white;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .LoginButton:active{
     opacity: 0.8;
+    
 }
 
 .Main{
     display: flex;
     flex-direction: column;
+    padding: 7.5%;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.Main img{
+    width: 272px;
+    
+}
+
+#googleSearch{
+    width: 50%;
+    border: 1px solid rgba(128, 128, 128, 0.295);
+    border-radius: 25px;
+    padding: 7.5px;
+    padding-left: 30px;
+    margin: 5% 0;
+
+    background: url('./Images/pngfind.com-searchicon-png-1092764.png');
+    background-repeat: no-repeat;
+    background-position-y: 7.5px;
+    background-position-x: 5px;
+    background-size: 3.5%;
+    
 }
